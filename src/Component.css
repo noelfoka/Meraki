@@ -1,0 +1,29 @@
+
+.div1 {
+   border: 1px solid whitesmoke;
+   width: 900px;
+   height: auto; 
+   border-radius: 10px;
+   background-color:beige;
+   margin-top: 10px;
+   margin-left: 0;
+}
+
+.div2 {
+    width:100%;
+}
+
+.div0 {
+    margin-left: 100px;
+}
+
+h2 {
+    color:rgb(24, 23, 23);
+    text-decoration: none;
+
+}
+
+img {
+    width: 50px;
+    border-radius: 100%;
+}

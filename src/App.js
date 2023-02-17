@@ -3,11 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+
+
 function App() {
   return (
     <Navbar bg="light" variant="light" className='shadow-sm'>
       <Container className='m-auto'>
-        <Navbar.Brand href="#home">Meraki <strong>UI</strong></Navbar.Brand>
+        <Navbar.Brand href="#home">Meraki <strong className="blue">UI</strong></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
 

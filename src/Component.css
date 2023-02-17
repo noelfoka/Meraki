@@ -1,7 +1,7 @@
 
 .div1 {
    border: 1px solid whitesmoke;
-   width: 900px;
+   width: 860px;
    height: auto; 
    border-radius: 10px;
    background-color:beige;
@@ -14,7 +14,8 @@
 }
 
 .div0 {
-    margin-left: 100px;
+    margin-left: 70px;
+    margin-right: 50px;
 }
 
 h2 {
@@ -24,6 +25,20 @@ h2 {
 }
 
 img {
-    width: 50px;
-    border-radius: 100%;
+    width: 60px;
+    -webkit-clip-path:ellipse(33% 50%);
+            
+    
+}
+
+div3 {
+    display: flex;
+}
+
+.p {
+    line-height:50px;
+}
+
+.flotte {
+    float: left;
 }

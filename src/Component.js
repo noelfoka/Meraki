@@ -10,7 +10,7 @@ import './Component.css';
 function FirstComponent() {
     return (
         <div class="row div0">
-            <br /> <br /> <br />
+            <br />
             <div class="col-md-8">
                 <div class="row">
                     <div class="col-md-10">
@@ -23,11 +23,38 @@ function FirstComponent() {
                         </DropdownButton>
                     </div>
                 </div>
-            </div>
+
+                <div class="shadow p-3 mb-5 bg-body rounded div1">
+                <div class="row div2">
+                    <div class="col-md-11">
+                        <h4>June 1, 2020</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <Button class="btn btn-secondary" variant="info">Laravel</Button>{' '}
+                    </div>
+                </div>
+
+                <h2><a href="#">Build Your New Idea with Laravel Freamwork.</a></h2>
                 <br />
-                <br /> <br /> <br />
-            <div class="col-md-4">
-                <h3>Authors</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.
+                     Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!</p>
+                
+                <div class="row">
+                    <div class="col-md-10">
+                        <a href="#">Read more</a>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row ">
+                            <a href="#" class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" />
+                                <p class="text-grey-700 font-bold hover-inline liketext p">joel foka</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
             <div class="shadow p-3 mb-5 bg-body rounded div1">
@@ -46,20 +73,179 @@ function FirstComponent() {
                      Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!</p>
                 
                 <div class="row">
-                    <div class="col-md-11">
+                    <div class="col-md-10">
                         <a href="#">Read more</a>
                     </div>
 
-                    <div class="col-md-1">
-                        <div class="row">
-                            <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden " />
-                            <p>joel foka</p>
+                    <div class="col-md-2">
+                        <div class="row ">
+                            <a href="#" class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" />
+                                <p class="text-grey-700 font-bold hover-inline liketext p">joel foka</p>
+                            </a>
                         </div>
                     </div>
 
                 </div>
 
             </div>
+
+
+            <div class="shadow p-3 mb-5 bg-body rounded div1">
+                <div class="row div2">
+                    <div class="col-md-11">
+                        <h4>June 1, 2020</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <Button class="btn btn-secondary" variant="info">Laravel</Button>{' '}
+                    </div>
+                </div>
+
+                <h2><a href="#">Build Your New Idea with Laravel Freamwork.</a></h2>
+                <br />
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.
+                     Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!</p>
+                
+                <div class="row">
+                    <div class="col-md-10">
+                        <a href="#">Read more</a>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row ">
+                            <a href="#" class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" />
+                                <p class="text-grey-700 font-bold hover-inline liketext p">joel foka</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="shadow p-3 mb-5 bg-body rounded div1">
+                <div class="row div2">
+                    <div class="col-md-11">
+                        <h4>June 1, 2020</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <Button class="btn btn-secondary" variant="info">Laravel</Button>{' '}
+                    </div>
+                </div>
+
+                <h2><a href="#">Build Your New Idea with Laravel Freamwork.</a></h2>
+                <br />
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.
+                     Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!</p>
+                
+                <div class="row">
+                    <div class="col-md-10">
+                        <a href="#">Read more</a>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row ">
+                            <a href="#" class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" />
+                                <p class="text-grey-700 font-bold hover-inline liketext p">joel foka</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="shadow p-3 mb-5 bg-body rounded div1">
+                <div class="row div2">
+                    <div class="col-md-11">
+                        <h4>June 1, 2020</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <Button class="btn btn-secondary" variant="info">Laravel</Button>{' '}
+                    </div>
+                </div>
+
+                <h2><a href="#">Build Your New Idea with Laravel Freamwork.</a></h2>
+                <br />
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.
+                     Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!</p>
+                
+                <div class="row">
+                    <div class="col-md-10">
+                        <a href="#">Read more</a>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="row ">
+                            <a href="#" class="flex items-center">
+                                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" />
+                                <p class="text-grey-700 font-bold hover-inline liketext p">joel foka</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            </div>
+        <div class="col-md-4">
+            <h3>Authors</h3>
+            <div class="shadow p-3 mb-5 bg-body rounded">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" /> 
+                    <p class="p"><a href="#"><strong>Joel Foka</strong></a> Created 23 post</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" /> 
+                    <p class="p"><a href="#"><strong>Joel Foka</strong></a> Created 23 post</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" /> 
+                    <p class="p"><a href="#"><strong>Joel Foka</strong></a> Created 23 post</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" /> 
+                    <p class="p"><a href="#"><strong>Joel Foka</strong></a> Created 23 post</p>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80" alt="avatar" class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block likeordislike flotte" /> 
+                    <p class="p"><a href="#"><strong>Joel Foka</strong></a> Created 23 post</p>
+                </div>
+            </div>
+            <br />
+
+            <h3>Categories</h3>
+            <div class="shadow p-3 mb-5 bg-body rounded">
+                <h5>- AWS</h5>
+                <h5>- Laravel</h5>
+                <h5>- Vue</h5>
+                <h5>- Design</h5>
+                <h5>- Django</h5>
+                <h5>- PHP</h5>
+            </div>
+
+        </div>
+            
+                        
+
+
+
+            
+
+
+            
+
+
 
         </div>
     );

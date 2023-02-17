@@ -1,27 +1,27 @@
-import './App.css';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-
-
+import "./App.css";
+import NavBar from "./components/nav-bar";
+import PostList from "./components/post-list";
+import "./Component.css";
+import AuthorsList from "./components/authors-list";
+import { Col, Container, Row } from "react-bootstrap";
+import CategoryList from "./components/category-list";
 
 function App() {
   return (
-    <Navbar bg="light" variant="light" className='shadow-sm'>
-      <Container className='m-auto'>
-        <Navbar.Brand href="#home">Meraki <strong className="blue">UI</strong></Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-
-          <Nav className='me-auto w-100 d-flex justify-content-end'>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Blog</Nav.Link>
-            <Nav.Link href="#pricing">About Us</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-
+    <>
+      <NavBar />
+      <Container className="mt-4">
+        <Row>
+          <Col lg={8}>
+            <PostList />
+          </Col>
+          <Col lg={4}>
+            <AuthorsList />
+            <CategoryList />
+          </Col>
+        </Row>
       </Container>
-    </Navbar>
+    </>
   );
 }
 

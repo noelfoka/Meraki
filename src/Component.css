@@ -48,7 +48,7 @@ div3 {
 }
 
 #div1 {
-    margin: 50%;
+    margin:;
     margin-top: 0;
     position: relative;
     margin-bottom: auto;
@@ -64,6 +64,7 @@ a {
     
 }
 
-.button {
+Button {
     color: whitesmoke;
+    text-align: center
 }

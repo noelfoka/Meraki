@@ -2,7 +2,7 @@ function CategoryList() {
   return (
     <div>
       <h3>Categories</h3>
-      <div class="shadow-sm p-3 mb-5 bg-body rounded">
+      <div className="shadow-sm p-3 mb-5 bg-body rounded">
         <h5>- AWS</h5>
         <h5>- Laravel</h5>
         <h5>- Vue</h5>

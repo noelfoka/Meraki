@@ -21,7 +21,7 @@ body {
     margin-right: 50px;
 }
 
-h3, h4, h5, p, a {
+h3, h4, h5, , a {
     color:rgb(112, 110, 110);
     text-decoration: none;
 
@@ -67,4 +67,17 @@ a {
 Button {
     color: whitesmoke;
     text-align: center
+}
+
+
+footer {
+    background-color: rgb(57, 53, 53);
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    height: 50px;
+}
+
+p {
+    color:aliceblue;
 }

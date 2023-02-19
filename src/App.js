@@ -6,6 +6,8 @@ import AuthorsList from "./components/authors-list";
 import { Col, Container, Row } from "react-bootstrap";
 import CategoryList from "./components/category-list";
 import RecentPost from "./components/recent-post";
+import ButtonCard from "./components/button-card";
+import FooterFunction from "./components/footer";
 
 function App() {
   return (
@@ -22,7 +24,10 @@ function App() {
             <RecentPost />
           </Col>
         </Row>
+        <ButtonCard />
       </Container>
+      <br />
+      <FooterFunction />
     </>
   );
 }

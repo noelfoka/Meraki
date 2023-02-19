@@ -5,6 +5,7 @@ import "./Component.css";
 import AuthorsList from "./components/authors-list";
 import { Col, Container, Row } from "react-bootstrap";
 import CategoryList from "./components/category-list";
+import RecentPost from "./components/recent-post";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Col lg={4}>
             <AuthorsList />
             <CategoryList />
+            <RecentPost />
           </Col>
         </Row>
       </Container>

@@ -21,7 +21,7 @@ body {
     margin-right: 50px;
 }
 
-h3, h4, h5, , a {
+h3, h4, h5, a {
     color:rgb(112, 110, 110);
     text-decoration: none;
 
@@ -71,13 +71,14 @@ Button {
 
 
 footer {
-    background-color: rgb(57, 53, 53);
+    background-color: rgb(221, 228, 228);
     text-align: center;
     margin-right: 0;
     margin-left: 0;
     height: 50px;
+    color: white;
 }
 
 p {
-    color:aliceblue;
+    color:rgb(57, 58, 58);
 }

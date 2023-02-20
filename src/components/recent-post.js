@@ -1,5 +1,4 @@
 import RecentPostCard from "./recent-post-card";
-import RecentPostFooter from "./recent-post-footer";
 
 function RecentPost() {
   return (

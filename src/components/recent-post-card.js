@@ -9,6 +9,7 @@ function RecentPostCard() {
         id="div1"
         variant="info"
         size=""
+        color="light"
         active
       >
         Laravel

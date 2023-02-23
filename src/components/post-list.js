@@ -10,8 +10,7 @@ function PostList() {
         <h3>Post</h3>
         <div>
           <DropdownButton
-            variant="secondary"
-            className=""
+            className="bg-lightgrey"
             title="Latest"
             id="bg-nested-dropdown"
           >

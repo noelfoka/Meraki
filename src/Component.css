@@ -71,14 +71,17 @@ Button {
 
 
 footer {
-    background-color: rgb(221, 228, 228);
+    background-color: rgb(7, 13, 12);
     text-align: center;
-    margin-right: 0;
-    margin-left: 0;
-    height: 50px;
+    margin: auto;
+    height: 60px;
     color: white;
 }
 
 p {
     color:rgb(57, 58, 58);
+}
+
+FontAwesomeIcon {
+    margin: auto;
 }

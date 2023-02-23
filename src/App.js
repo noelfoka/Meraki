@@ -8,6 +8,8 @@ import CategoryList from "./components/category-list";
 import RecentPost from "./components/recent-post";
 import ButtonCard from "./components/button-card";
 import FooterFunction from "./components/footer";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (

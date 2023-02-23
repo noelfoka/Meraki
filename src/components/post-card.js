@@ -8,7 +8,7 @@ function PostCard() {
           <h4>June 1, 2020</h4>
         </div>
         <div className="col-md-1">
-          <Button className="btn btn-secondary button" variant="info">
+          <Button variant="secondary">
             <strong>Laravel</strong>
           </Button>{" "}
         </div>

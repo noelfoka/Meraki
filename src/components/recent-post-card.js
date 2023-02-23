@@ -5,9 +5,9 @@ function RecentPostCard() {
     <div>
       <Button
         type="button"
-        className="btn btn-secondary text-center items-center"
+        className="text-center items-center"
         id="div1"
-        variant="info"
+        variant="secondary"
         size=""
         color="light"
         active

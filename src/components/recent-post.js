@@ -20,19 +20,17 @@ function RecentPost() {
             <br />
             <br />
             <div className="d-flex align-items-center">
-              
               <a href="#" className="flex-shrink-0">
                 <img
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
-                alt="avatar"
-                className="rounded-circle w-90 object-cover rounded-full hidden sm:block likeordislike flotte"
+                  src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
+                  alt="avatar"
+                  className="rounded-circle w-90 object-cover rounded-full hidden sm:block likeordislike flotte"
                 />
               </a>
               <div className="flex-grow-1 align-self-end">
-                
-              <p className="text-grey-700 font-bold hover-inline liketext p">
-                joel foka
-              </p>
+                <p className="text-grey-700 font-bold hover-inline liketext p align-self-center">
+                  joel foka
+                </p>
               </div>
             </div>
           </div>

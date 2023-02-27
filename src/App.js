@@ -17,10 +17,10 @@ function App() {
       <NavBar />
       <Container className="mt-4">
         <Row>
-          <Col lg={8}>
+          <Col lg={8} sm={12}>
             <PostList />
           </Col>
-          <Col lg={4}>
+          <Col lg={4} sm={12}>
             <AuthorsList />
             <CategoryList />
             <RecentPost />

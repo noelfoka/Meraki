@@ -6,7 +6,7 @@ import PostCard from "./post-card";
 function PostList() {
   return (
     <div>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between post">
         <h3>Post</h3>
         <div>
           <DropdownButton

@@ -4,7 +4,7 @@ body {
 }
 .div1 {
    border: 1px solid whitesmoke;
-   width: 860px;
+   width:;
    height: auto; 
    border-radius: 10px;
    background-color:beige;
@@ -85,3 +85,14 @@ p {
 FontAwesomeIcon {
     margin: auto;
 }
+
+@media {
+    .nav {
+        width: 100%;
+    }
+
+    .div1 {
+        width: 100;
+    }
+}
+

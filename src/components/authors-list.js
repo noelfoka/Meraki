@@ -5,10 +5,11 @@ function AuthorsList() {
     <div>
       <h3>Authors</h3>
       <div className="shadow-sm p-3 mb-5 bg-body rounded">
-        <AuthorCard />
-        <AuthorCard />
-        <AuthorCard />
-        <AuthorCard />
+        <AuthorCard name="Alex Jhon" />
+        <AuthorCard name="Janne Doe" />
+        <AuthorCard name="Lisa Way" />
+        <AuthorCard name="Steve Matt" />
+        <AuthorCard name="Khatab Wedaa" />
       </div>
     </div>
   );

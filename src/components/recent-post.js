@@ -28,8 +28,8 @@ function RecentPost() {
                 />
               </a>
               <div className="flex-grow-1 align-self-end">
-                <p className="text-grey-700 font-bold hover-inline liketext p align-self-center">
-                  joel foka
+                <p className="text-grey-700 font-bold hover-inline align-self-center">
+                  Alex Jhon
                 </p>
               </div>
             </div>

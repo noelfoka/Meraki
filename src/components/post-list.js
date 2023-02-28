@@ -19,11 +19,11 @@ function PostList() {
           </DropdownButton>
         </div>
       </div>
-      <PostCard />
-      <PostCard />
-      <PostCard />
-      <PostCard />
-      <PostCard />
+      <PostCard name="Alex Jhon" />
+      <PostCard name="Janne Doe" />
+      <PostCard name="Lisa Way" />
+      <PostCard name="Steve Matt" />
+      <PostCard name="khatab wetaa" />
     </div>
   );
 }

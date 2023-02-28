@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 
-function PostCard() {
+function PostCard(props) {
   return (
     <div className="shadow-sm p-3 mb-5 bg-body rounded div1">
       <div className="row div2">
@@ -39,7 +39,7 @@ function PostCard() {
                 className="rounded-circle w-90 object-cover rounded-full hidden sm:block likeordislike flotte"
               />
               <p className="text-grey-700 font-bold hover-inline liketext p">
-                joel foka
+                {props.name}
               </p>
             </a>
           </div>

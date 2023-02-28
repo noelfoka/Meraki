@@ -1,6 +1,6 @@
 import React from "react";
 
-function AuthorCard() {
+function AuthorCard(props) {
   return (
     <div className="d-flex">
       <img
@@ -10,7 +10,7 @@ function AuthorCard() {
       />
       <p className="p">
         <a href="#">
-          <strong>Joel Foka</strong>
+          <strong>{props.name}</strong>
         </a>{" "}
         Created 23 post
       </p>
